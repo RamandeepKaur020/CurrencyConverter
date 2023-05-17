@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="978.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.currencyconverter.HelloController">
+   <children>
+      <Line endX="-102.33331298828125" endY="516.0" layoutX="519.0" layoutY="119.0" startX="-102.33331298828125" startY="-61.66666030883789" />
+      <Line endX="-101.33331298828125" endY="551.0" layoutX="511.0" layoutY="83.0" startX="-101.33331298828125" startY="-28.0" />
+      <Label contentDisplay="CENTER" layoutX="-6.0" prefHeight="54.0" prefWidth="985.0" style="-fx-background-color: #003049; -fx-text-fill: white;" text="                      Currency Conversion Made Easy!!" textAlignment="RIGHT">
+         <font>
+            <Font name="Jokerman" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9473684430122375" green="0.17251461744308472" blue="0.17251461744308472" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.2357723577235772">
+                     <color>
+                        <Color red="0.702936589717865" green="0.8508771657943726" blue="0.16807450354099274" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5853658536585366">
+                     <color>
+                        <Color red="0.07199999690055847" green="0.800000011920929" blue="0.7584439516067505" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Line endX="971.0" endY="10.999996185302734" layoutX="7.0" layoutY="43.0" startX="-13.16666030883789" startY="10.999996185302734" />
+      <AnchorPane layoutX="1.0" layoutY="55.0" prefHeight="584.0" prefWidth="402.0">
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="16.0" layoutY="15.0" prefHeight="541.0" prefWidth="367.0" text="This applet has a user-friendly interface that can be used to perform basic currency conversions . " wrapText="true">
+               <font>
+                  <Font name="Kristen ITC" size="18.0" />
+               </font>
+            </Label>
+            <Text fill="RED" layoutX="16.0" layoutY="156.0" lineSpacing="1.0" stroke="#fcb32d" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="OUTSIDE" text="Follow the following steps: " textAlignment="CENTER" underline="true" wrappingWidth="370.0">
+               <font>
+                  <Font name="Kristen ITC" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="16.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Enter the value of money you wish to convert" wrappingWidth="376.1367645263672" AnchorPane.bottomAnchor="391.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.529902140299498" AnchorPane.topAnchor="177.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text layoutX="16.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Choose the currency" wrappingWidth="367.3333333333333">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="16.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Click 'Convert'" wrappingWidth="367.3333333333333">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="16.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. You have your final converted value. " wrappingWidth="367.3333333333333">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#e61a1a" layoutX="19.0" layoutY="409.0" stroke="#fcb32d" strokeLineCap="ROUND" strokeType="OUTSIDE" text="More to know:" textAlignment="CENTER" underline="true" wrappingWidth="370.0">
+               <font>
+                  <Font name="Kristen ITC" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="16.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="~ Clicking on 'Close' will close the app" wrappingWidth="367.3333333333333">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="17.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="~The values are based on the relative values of currency on date: 05/12/2023" wrappingWidth="367.3333333333333">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Polyline fill="CHARTREUSE" layoutX="458.0" layoutY="42.0" points="-50.0, -40.0, -81.99996948242188, -19.666664123535156, -50.0, 4.3333282470703125, -50.0, -40.0" strokeType="INSIDE" />
+            <Polyline fill="CHARTREUSE" layoutX="465.0" layoutY="42.0" points="-50.0, -40.0, -23.999969482421875, -17.666664123535156, -50.0, 4.3333282470703125, -50.0, -40.0" strokeType="INSIDE" />
+            <Circle fill="#ffc91f" layoutX="411.0" layoutY="24.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="434.0" layoutY="158.0" prefHeight="39.0" prefWidth="316.0" text="Enter the amount you want to convert:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="438.0" prefHeight="39.0" prefWidth="223.0" text="Final value">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="222.0" prefHeight="39.0" prefWidth="223.0" text="Currency to convert from:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="278.0" prefHeight="39.0" prefWidth="223.0" text="Convert to :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InitialInput" layoutX="758.0" layoutY="165.0" promptText="Ex: 2300" />
+      <TextField fx:id="FinalOutput" editable="false" layoutX="727.0" layoutY="445.0" />
+      <ComboBox fx:id="InitialCurrency" layoutX="759.0" layoutY="228.0" prefWidth="150.0" />
+      <ComboBox fx:id="FinalCurrency" layoutX="759.0" layoutY="284.0" prefWidth="150.0" />
+      <Button fx:id="Convert" defaultButton="true" layoutX="643.0" layoutY="363.0" mnemonicParsing="false" mouseTransparent="true" onAction="#ConvertOnAction" prefHeight="39.0" prefWidth="115.0" style="-fx-background-color: green; -fx-border-color: red;" text="CONVERT" textAlignment="CENTER" textFill="#e1f700" />
+   </children>
+</AnchorPane>
